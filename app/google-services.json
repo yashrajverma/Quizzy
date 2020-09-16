@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "168351638182",
+    "firebase_url": "https://quizzy-2008d.firebaseio.com",
+    "project_id": "quizzy-2008d",
+    "storage_bucket": "quizzy-2008d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168351638182:android:a434516e506c6710f74a67",
+        "android_client_info": {
+          "package_name": "com.yashraj.quizzy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168351638182-pelfcrrfe5vgfqihfp1ntorsckqvufps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOfpBW1xUVUYj6ayrEdBgE8LLdyiXNQrU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168351638182-pelfcrrfe5vgfqihfp1ntorsckqvufps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
