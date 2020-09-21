@@ -3,11 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:ignore="MissingDefaultResource">
+    tools:context=".ResultActivity">
     <TextView
+        android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="RankingFragment"/>
+        android:text="Option B is most Choosen"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
 
 </RelativeLayout>

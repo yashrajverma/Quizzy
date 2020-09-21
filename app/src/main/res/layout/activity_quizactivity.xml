@@ -1,25 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".QuizActivity">
-<FrameLayout
-    android:id="@+id/frame_layout"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_above="@id/bottom_appBar"
-    android:animateLayoutChanges="true">
-</FrameLayout>
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottom_appBar"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:text="2:50"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="points"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Sample Question for the Testing"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/option_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#33FFFF"
+        android:clickable="true"
+        android:padding="10dp"
+        android:text="Option A"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/option_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/option_A"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#ff33"
+        android:clickable="true"
+        android:padding="10dp"
+        android:text="Option B"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/option_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/option_B"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#33FF66"
+        android:clickable="true"
+        android:padding="10dp"
+        android:text="Option C"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/option_Selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
-        app:menu="@menu/bottom_appbar"
-        tools:ignore="BottomAppBar">
+        android:layout_marginBottom="50dp"
+        android:text="Option is Selected"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="gone"/>
 
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
 </RelativeLayout>
